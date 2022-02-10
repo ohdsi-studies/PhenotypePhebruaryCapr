@@ -1,0 +1,61 @@
+{
+ "ConceptSets": [
+ {
+ "id": 0,
+"name": "AFib",
+"expression": {
+ "items": [
+ {
+ "concept": {
+ "CONCEPT_ID": 313217,
+"CONCEPT_NAME": "Atrial fibrillation",
+"STANDARD_CONCEPT": "S",
+"STANDARD_CONCEPT_CAPTION": "Standard",
+"INVALID_REASON": "V",
+"INVALID_REASON_CAPTION": "Valid",
+"CONCEPT_CODE": "49436004",
+"DOMAIN_ID": "Condition",
+"VOCABULARY_ID": "SNOMED",
+"CONCEPT_CLASS_ID": "Clinical Finding" 
+},
+"includeDescendants": true 
+} 
+] 
+} 
+} 
+],
+"PrimaryCriteria": {
+ "CriteriaList": [
+ {
+ "ConditionOccurrence": {
+ "CodesetId": 0,
+"OccurrenceStartDate": {
+ "Value": "2013-01-01",
+"Op": "bt" 
+} 
+} 
+} 
+],
+"ObservationWindow": {
+ "PriorDays": 0,
+"PostDays": 0 
+},
+"PrimaryCriteriaLimit": {
+ "Type": "First" 
+} 
+},
+"QualifiedLimit": {
+ "Type": "First" 
+},
+"ExpressionLimit": {
+ "Type": "First" 
+},
+"InclusionRules": [],
+"CensoringCriteria": [],
+"CollapseSettings": {
+ "CollapseType": "ERA",
+"EraPad": 0 
+},
+"CensorWindow": {},
+"cdmVersionRange": ">=5.0.0" 
+}

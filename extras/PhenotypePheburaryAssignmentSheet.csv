@@ -1,29 +1,29 @@
-day,phenotype,developer,assign_date,reviewer
-1,Type 2 Diabetes Mellitus,Adam Black,2/9/2022,NA
-2,Type 1 Diabetes Mellitus,Adam Black,2/10/2022,NA
-3,Atrial Fibrillation,NA,NA,NA
-4,Multiple Myeloma,NA,NA,NA
-5,Alzheimers Disease,NA,NA,NA
-6,Hemorrhagic Events,NA,NA,NA
-7,Neutropenia,NA,NA,NA
-8,Kidney Stones,NA,NA,NA
-9,NA,NA,NA,NA
-10,Systemic Lupus Erythematosus,NA,NA,NA
-11,NA,NA,NA,NA
-12,NA,NA,NA,NA
-13,NA,NA,NA,NA
-14,NA,NA,NA,NA
-15,NA,NA,NA,NA
-16,NA,NA,NA,NA
-17,NA,NA,NA,NA
-18,NA,NA,NA,NA
-19,NA,NA,NA,NA
-20,NA,NA,NA,NA
-21,NA,NA,NA,NA
-22,NA,NA,NA,NA
-23,NA,NA,NA,NA
-24,NA,NA,NA,NA
-25,NA,NA,NA,NA
-26,NA,NA,NA,NA
-27,NA,NA,NA,NA
-28,NA,NA,NA,NA
+day,phenotype,developer,assign_date,reviewer,forum link
+1,Type 2 Diabetes Mellitus,Adam Black,2/9/2022,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-1-type-2-diabetes-mellitus
+2,Type 1 Diabetes Mellitus,Adam Black,2/10/2022,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-2-type-1-diabetes-mellitus
+3,Atrial Fibrillation,Martin Lavallee,2/10/2022,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-3-atrial-fibrillation
+4,Multiple Myeloma,NA,NA,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-4-multiple-myeloma
+5,Alzheimers Disease,NA,NA,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-5-alzheimers-disease
+6,Hemorrhagic Events,Martin Lavallee,2/10/2022,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-6-hemorrhagic-events
+7,Neutropenia,NA,NA,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-7-neutropenia
+8,Kidney Stones,NA,NA,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-8-kidney-stones
+9,NA,NA,NA,NA,
+10,Systemic Lupus Erythematosus,NA,NA,NA,https://forums.ohdsi.org/t/phenotype-phebruary-day-10-systemic-lupus-erythematosus
+11,NA,NA,NA,NA,
+12,NA,NA,NA,NA,
+13,NA,NA,NA,NA,
+14,NA,NA,NA,NA,
+15,NA,NA,NA,NA,
+16,NA,NA,NA,NA,
+17,NA,NA,NA,NA,
+18,NA,NA,NA,NA,
+19,NA,NA,NA,NA,
+20,NA,NA,NA,NA,
+21,NA,NA,NA,NA,
+22,NA,NA,NA,NA,
+23,NA,NA,NA,NA,
+24,NA,NA,NA,NA,
+25,NA,NA,NA,NA,
+26,NA,NA,NA,NA,
+27,NA,NA,NA,NA,
+28,NA,NA,NA,NA,
