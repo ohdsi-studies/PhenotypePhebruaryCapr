@@ -21,7 +21,7 @@ At the top of each Capr .R script file please create a header section describing
 # Author: Adam Black
 # Date: 2/9/2022
 
-# ATLAS Link: https://forums.ohdsi.org/t/phenotype-phebruary-day-1-type-2-diabetes-mellitus/15764
+# Forum Link: https://forums.ohdsi.org/t/phenotype-phebruary-day-1-type-2-diabetes-mellitus/15764
 # Notes: 
 
 # Patrick Ryan developed three Type 2 diabetes definitions for day 1
@@ -37,13 +37,14 @@ At the top of each Capr .R script file please create a header section describing
 
 ```
 
-Please comment your code communicating the steps you took to build the cohort. If you are using `Capr::writeCaprCall` you do not need to comment, it will automatically render the R code. Use of R markdown is also highly encouraged!
+Please comment your code communicating the steps you took to build the cohort. If you are using `Capr::writeCaprCall` you do not need to comment, it will automatically render the R code. Use of R markdown is also highly encouraged! We will add more to best practices as they are developed. We encourage you to suggest ideas on the discussions tab. 
 
 ### Saving Work 
 When working on a phenotype create a new folder in results labeled dayX where X is the day in February. In this folder create an R folder containing the Capr code used to create a cohort and a json folder to save json file outputs of the cohorts. If you created any custom functions for your R script please save them in a separate clearly labeled file. Any .txt files created using `Capr::writeCaprCall` should be saved to a folder labelled output. 
 
-### Capr Issues 
-If you encounter any bugs with Capr, please post an issue first to this repository so that it can be reviewed. After review, the bug may be escalated to an issue in the Capr repository if it is thought to be an issue with the package. Please dont post issues directly to Capr, so that they can be reviewed and discussed first. 
+### Capr Issues and Discussions  
+
+We encourage you to participate in the [discussions](https://github.com/ohdsi-studies/PhenotypePhebruaryCapr/discussions) tab of PhenotypePheburaryCapr. The idea is to get feedback on the software and discuss the strengths and weaknesses of `Capr` through this process. Please post any suggestions in the discussions and describe your experience using `Capr`. You are welcome to submit an issue, but encourage to discuss the issue in more detail in the discussions tab. If you encounter bugs with Capr, please post the issue to this repository so that it can be reviewed and discussed. I will escalate any pending issues, after reviewing them, to the Capr repo. The purpose of this repository is to improve the Capr software (as well as further our understanding of building phenotypes) so we want to keep issues organized. 
 
 
 # Organization
@@ -51,9 +52,9 @@ If you encounter any bugs with Capr, please post an issue first to this reposito
 This repository is not an R package so it follows a non-standard organizational structure. Please use the Rproj when collaborating but be sure to no upload .Rhistory to any branch in the repository, it should be set in the .gitignore. The organization of the project is subject to change as the project progresses.  The primary folders in this repository are: 
 
 - **results**: this contains the code for each day in Phenotype Pheburary labeled day 1 through day 28.    
-  -*R*: contains Capr R code used to create cohort definitions   
-  -*json*: contains the json files used to identify the cohort definitions   
-  -*output*: contains the txt file outputs from the function `Capr::writeCaprCall`, if it is used   
+  - *R*: contains Capr R code used to create cohort definitions   
+  - *json*: contains the json files used to identify the cohort definitions   
+  - *output*: contains the txt file outputs from the function `Capr::writeCaprCall`, if it is used   
 - **extras**: contains additional files pretaining to the project   
   - `codeToRun.R` template file used to configure your session for the Phenotype Pheburary project   
   - `PhenotypePheburaryAssignmentSheet.csv` file to track and assign phenotypes to developers.   
