@@ -1,0 +1,227 @@
+{
+ "ConceptSets": [
+ {
+ "id": 0,
+"name": "AFib",
+"expression": {
+ "items": [
+ {
+ "concept": {
+ "CONCEPT_ID": 313217,
+"CONCEPT_NAME": "Atrial fibrillation",
+"STANDARD_CONCEPT": "S",
+"STANDARD_CONCEPT_CAPTION": "Standard",
+"INVALID_REASON": "V",
+"INVALID_REASON_CAPTION": "Valid",
+"CONCEPT_CODE": "49436004",
+"DOMAIN_ID": "Condition",
+"VOCABULARY_ID": "SNOMED",
+"CONCEPT_CLASS_ID": "Clinical Finding" 
+},
+"includeDescendants": true 
+},
+{
+ "concept": {
+ "CONCEPT_ID": 314665,
+"CONCEPT_NAME": "Atrial flutter",
+"STANDARD_CONCEPT": "S",
+"STANDARD_CONCEPT_CAPTION": "Standard",
+"INVALID_REASON": "V",
+"INVALID_REASON_CAPTION": "Valid",
+"CONCEPT_CODE": "5370000",
+"DOMAIN_ID": "Condition",
+"VOCABULARY_ID": "SNOMED",
+"CONCEPT_CLASS_ID": "Clinical Finding" 
+},
+"includeDescendants": true 
+} 
+] 
+} 
+} 
+],
+"PrimaryCriteria": {
+ "CriteriaList": [
+ {
+ "ConditionOccurrence": {
+ "CodesetId": 0,
+"OccurrenceStartDate": {
+ "Value": "2007-01-01",
+"Op": "bt" 
+},
+"CorrelatedCriteria": {
+ "Type": "ANY",
+"CriteriaList": [
+ {
+ "Criteria": {
+ "VisitOccurrence": {
+ "CodesetId": 0 
+} 
+},
+"StartWindow": {
+ "Start": {
+ "Coeff": -1 
+},
+"End": {
+ "Days": 0,
+"Coeff": 1 
+},
+"UseEventEnd": false,
+"UseIndexEnd": false 
+},
+"EndWindow": {
+ "Start": {
+ "Days": 0,
+"Coeff": -1 
+},
+"End": {
+ "Coeff": 1 
+},
+"UseEventEnd": true,
+"UseIndexEnd": false 
+},
+"Occurrence": {
+ "Type": 2,
+"Count": 1 
+} 
+} 
+],
+"DemographicCriteriaList": [],
+"Groups": [
+ {
+ "Type": "ALL",
+"CriteriaList": [
+ {
+ "Criteria": {
+ "VisitOccurrence": {
+ "CodesetId": 0,
+"CorrelatedCriteria": {
+ "Type": "ALL",
+"CriteriaList": [
+ {
+ "Criteria": {
+ "ConditionOccurrence": {
+ "CodesetId": 0,
+"CorrelatedCriteria": {
+ "Type": "ALL",
+"CriteriaList": [
+ {
+ "Criteria": {
+ "VisitOccurrence": {
+ "CodesetId": 0 
+} 
+},
+"StartWindow": {
+ "Start": {
+ "Coeff": -1 
+},
+"End": {
+ "Days": 0,
+"Coeff": 1 
+},
+"UseEventEnd": false,
+"UseIndexEnd": false 
+},
+"EndWindow": {
+ "Start": {
+ "Days": 0,
+"Coeff": -1 
+},
+"End": {
+ "Coeff": 1 
+},
+"UseEventEnd": true,
+"UseIndexEnd": false 
+},
+"Occurrence": {
+ "Type": 2,
+"Count": 1 
+} 
+} 
+],
+"DemographicCriteriaList": [],
+"Groups": [] 
+} 
+} 
+},
+"StartWindow": {
+ "Start": {
+ "Days": 7,
+"Coeff": 1 
+},
+"End": {
+ "Days": 365,
+"Coeff": 1 
+},
+"UseEventEnd": false,
+"UseIndexEnd": false 
+},
+"Occurrence": {
+ "Type": 2,
+"Count": 1 
+} 
+} 
+],
+"DemographicCriteriaList": [],
+"Groups": [] 
+} 
+} 
+},
+"StartWindow": {
+ "Start": {
+ "Coeff": -1 
+},
+"End": {
+ "Days": 0,
+"Coeff": 1 
+},
+"UseEventEnd": false,
+"UseIndexEnd": false 
+},
+"EndWindow": {
+ "Start": {
+ "Days": 0,
+"Coeff": -1 
+},
+"End": {
+ "Coeff": 1 
+},
+"UseEventEnd": true,
+"UseIndexEnd": false 
+},
+"Occurrence": {
+ "Type": 2,
+"Count": 1 
+} 
+} 
+],
+"DemographicCriteriaList": [],
+"Groups": [] 
+} 
+] 
+} 
+} 
+} 
+],
+"ObservationWindow": {
+ "PriorDays": 0,
+"PostDays": 0 
+},
+"PrimaryCriteriaLimit": {
+ "Type": "First" 
+} 
+},
+"QualifiedLimit": {
+ "Type": "First" 
+},
+"ExpressionLimit": {
+ "Type": "First" 
+},
+"InclusionRules": [],
+"CensoringCriteria": [],
+"CollapseSettings": {
+ "CollapseType": "ERA",
+"EraPad": 0 
+},
+"CensorWindow": {},
+"cdmVersionRange": ">=5.0.0" 
+}
